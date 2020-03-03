@@ -29,4 +29,8 @@ export const EmptyMessageContainer = styled.span`
 
 export const CartDropdownButton = styled(Button)`
 	margin-top: auto;
+
+	@media screen and (max-width: 800px) {
+		width: 100%;
+	}
 `;

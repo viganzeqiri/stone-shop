@@ -10,6 +10,13 @@ const buttonStyles = css`
 		color: black;
 		border: 1px solid black;
 	}
+
+	@media screen and (max-width: 800px) {
+		display: block;
+		opacity: 0.9;
+		min-width: unset;
+		width: 45%;
+	}
 `;
 
 const invertedButtonStyles = css`
@@ -22,6 +29,13 @@ const invertedButtonStyles = css`
 		color: white;
 		border: none;
 	}
+
+	@media screen and (max-width: 800px) {
+		display: block;
+		opacity: 0.9;
+		min-width: unset;
+		width: 45%;
+	}
 `;
 
 const googleSignInStyles = css`
@@ -31,6 +45,13 @@ const googleSignInStyles = css`
 	&:hover {
 		background-color: #357ae8;
 		border: none;
+	}
+
+	@media screen and (max-width: 800px) {
+		display: block;
+		opacity: 0.9;
+		min-width: unset;
+		width: 45%;
 	}
 `;
 
